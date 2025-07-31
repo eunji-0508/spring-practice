@@ -45,7 +45,7 @@ public class MemberController {
     }
 
     // 삭제
-    @DeleteMapping("/members/{memberid}")
+    @DeleteMapping("/members/{memberId}")
     public void deleteMember(
             @PathVariable Long memberId
     ) {

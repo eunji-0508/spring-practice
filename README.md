@@ -12,7 +12,7 @@ Update -> PUT, PATCH
 Delete -> DELETE
 
 
-### * Get일 때는 변경하지 않고 읽기만 하기 때문에 @Transactional에 readOnly = true를 추가해준다.
+* Get일 때는 변경하지 않고 읽기만 하기 때문에 @Transactional에 readOnly = true를 추가해준다.
 
 
 ## Layered architecture
